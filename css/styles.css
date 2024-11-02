@@ -1,1 +1,22 @@
 
+body {
+    font-family: Arial, sans-serif;
+}
+
+.profile-img {
+    width: 150px;
+    height: 150px;
+}
+
+.resume-section {
+    padding: 20px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f8f9fa;
+    transition: background-color 0.3s;
+}
+
+.resume-section:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+}
